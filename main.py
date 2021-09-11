@@ -1,9 +1,10 @@
+#random module comes with a lot of methods to move around numbers
 import random
-
+#my list of players 
 players = ["Matt", "Amy", "Bob", "Jan", "Rob", "Donna", "Terrell", "Mary", "Tim", "Becky"]
 
 print("Welcome to Team Allocator!")
-
+#While loop over team until you decide if you want to keep the current team
 while True:
     random.shuffle(players)
     team1 = players[:len(players)//2]
